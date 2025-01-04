@@ -1,0 +1,31 @@
+/* import fonts from the Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+     font-family: "pratik";
+     src: url("custom/CHABUL.ttf") format("TrueType Font ");
+}
+body{
+     background-color: aliceblue;
+}
+h1{
+     font-family:"Urbanist", sans-serif;
+     font-size: 54px;
+     font-weight: 900;
+     font-style: italic;
+     font-variant: small-caps;
+
+}
+p{
+     font-family:"Urbanist", sans-serif;
+     font-size: 34px;
+     font-weight: 400;
+}
+a{
+     font-family:"Urbanist", sans-serif;
+     font-size: 30px;
+}
+span{
+     /* so that's way the name is the imp one  */
+     font-family: "pratik","Urbanist", sans-serif; 
+     font-size: 40px;
+}

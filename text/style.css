@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+     background-color:hsl(0,0%,94%);
+}
+h1{
+     font-size:70px;
+     font-family:"Urbanist", sans-serif;
+     font-weight: 900;    
+     text-align:center;
+     text-decoration-line:underline ;
+     text-decoration-color: red;
+     text-decoration-thickness: 9px;
+     text-decoration-style: dotted;
+     /* so we can use these above properties in a single line  */
+     text-decoration: underline wavy rgb(122, 147, 33);
+     text-shadow: 2px 2px 6px rgb(122, 147, 33);
+     /* for offset-x : -ve is left and + right  */
+     /* for Offset-y : -ve  is up and +down  */
+     /* 0 used for no blur(px)  */
+}
+     
+h2{
+     font-size: 50px;
+     font-family:"Urbanist", sans-serif;
+     font-weight: 500;
+     text-align: center;
+     text-decoration:underline solid rgb(23, 97, 11);
+     /* Text Transform :Example: To converting each words first latter capital we use this one  */
+     text-transform:capitalize;
+}
+/* latter spacing  */
+p{
+     font-size: 34px;
+     font-weight: 300;
+     letter-spacing: 1.2px;
+     word-spacing: 1px;
+     /* 1.56 usually it use  */
+     line-height: 1.56;
+     
+     
+}
+/* Usually the ancher tag having the default underline */
+a{
+     color: red;
+     font-size: 34px;
+     font-weight: 300;
+     letter-spacing: 1.2px;
+     word-spacing: 1px;
+     text-decoration: none;
+}
+/*? 2: How can you create drop caps (initial letter styling) in CSS? */
+/* You can create drop caps using the ::first-letter pseudo-element in CSS.  */
+
+p::first-letter{
+     text-transform: capitalize;
+     font-size: 50px;
+     font-weight:700;
+}

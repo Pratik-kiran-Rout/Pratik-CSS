@@ -1,0 +1,59 @@
+body{
+background-color: antiquewhite;
+}
+h1{
+     font-size: 40px;
+     color:blueviolet
+}
+p{
+     font-size: 30px;
+}
+li{
+     font-size: 34px;
+}
+/* for percetage :100%=16px */
+/* 1px=6.25% */
+h1{
+     /* 54px is equal to 337.5% */
+     font-size: 337.5%; 
+}
+
+/* 1em=16px
+em (Relative to the Parent Element's Font Size):
+
+The em unit is relative to the font size of the parent element.
+If a parent element has a font size of 16px, then 1em in the child element will be equal to 16px */
+
+h1{
+     /* 54px is equal to 337.5% */
+     font-size: 3.34em; 
+     color: red;
+}
+
+.parent{
+font-size: 10px;
+}
+/* now as per the parent 1 em is = 10px  */
+li{
+     font-size: 3em; 
+     /* 1em=10px relativ eto the parent  */
+}
+          
+
+              /* IMP rem */
+
+html{ 
+     /* root font size */
+     font-size: 10px;
+}
+h1{
+     font-size: 6.3rem; 
+     /* now 1 rem = 10 px as per the root  */
+}
+.parent{
+font-size: 30px;
+}
+li{
+     font-size: 3rem; 
+     /* now it doesn't depend upon the parent class font size */
+}

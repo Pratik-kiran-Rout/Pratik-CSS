@@ -1,0 +1,27 @@
+h1{
+     color:rgb(22, 222, 22);
+}
+/* alpha part */
+.para1{
+     color:rgba(20, 51, 228, 0.532);
+}
+.para2{
+     color:black;
+}
+#button{
+     background-color: red;
+     color: white;
+}
+/* we can use both anchor part and the id part
+#psclass:hover{ 
+     color: white;
+} */
+
+/* but id having the more priority */
+h1:hover{
+     color:black;
+}
+a:hover{
+     background-color: black;
+     color: white;
+}

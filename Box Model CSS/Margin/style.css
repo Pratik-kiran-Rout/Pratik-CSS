@@ -1,0 +1,100 @@
+/** ------------------------------------- -->
+/**  MARGIN IN CSS 
+/** ---------------------------------------- --> */
+
+/*? The `margin` property defines the space outside the element's border. It creates separation between the element and other elements in the layout. */
+
+/*? Margins create extra space around an element, unlike padding, which creates extra space within an element. */
+
+/** SYNTAX: */
+
+/*! Four Values: `margin: top right bottom left;` */
+/* margin: 50px 40px 30px 60px; */
+
+/* - `top`: Specifies the margin on the top side.
+- `right`: Specifies the margin on the right side.
+- `bottom`: Specifies the margin on the bottom side.
+- `left`: Specifies the margin on the left side. */
+
+/*! Three Values: margin: top right-left bottom; */
+/* margin: 50px 30px 60px; */
+
+/* - `top`: Specifies the margin on the top side.
+- `right-left`: Specifies the margin on the right and left sides.
+- `bottom`: Specifies the margin on the bottom side. */
+
+/*! Two Values: margin: top-bottom right-left; */
+/* margin: 50px 30px;
+
+- `top-bottom`: Specifies the margin on the top and bottom sides.
+- `right-left`: Specifies the margin on the right and left sides. */
+
+/*! One Value: margin: value; */
+/* margin: 50px; */
+/* If you provide a single value, it applies to all sides equally. */
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+     font-family: "Urbanist";
+}
+
+body{
+     background-color: antiquewhite;
+}
+
+#main-heading{
+     font-size: 60px;
+     font-family:"Urbanist", serif;
+     font-variant: small-caps;
+     font-weight: 700;
+     text-align: center;
+     text-decoration: underline wavy 5px violet;
+}
+p{
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 25px;
+     word-spacing: 1.5px;
+     text-align: center;
+}
+.first-margin{
+     border: 2px solid black;
+     width: 1200px;
+     background-color: rgb(216, 191, 239);
+     border-radius: 5px;
+     padding: 10px 20px;
+  /*? Four Values: `margin: top right bottom left;` */
+  /* margin: 200px 200px 200px 200px; */
+
+  /*? Three Values: margin: top right-left bottom; */
+  /* margin: 100px 200px 150px; */
+
+  /*? Two Values: margin: top-bottom right-left; */
+  /* margin: 100px 200px; */
+
+  /*? One Value: margin: all four direction; */
+  /* margin: 200px; */
+ /* margin :10px 30px 40px; */
+
+ /* ? Auto Value: You can use margin: auto; to horizontally center an element within its container. This is commonly used for centering block-level elements. ( mainly work in left and right ) */
+ margin: auto;
+ margin-bottom: 30px;
+
+ /* collapsing margin */
+ margin-bottom: 50px;
+}
+/*! Collapsing Margins: When two adjacent margins meet, they can collapse into a single margin. This behavior is important to understand, especially when dealing with elements like paragraphs and headings. The larger of the two margins takes precedence. */
+
+.second-margin{
+     background-color: aquamarine;
+     width: 1200px;
+     border: 2px solid black;
+     border-radius: 5px;
+     padding: 10px 20px;
+     margin:auto;
+     margin-top: -40px; /* negative margin*/
+     
+     /* collapsing margin */
+     margin-top: 60px;
+}
