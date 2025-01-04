@@ -17,6 +17,5 @@ Welcome to **Pratik's CSS Repository**, created and maintained by **Pratik Kiran
 
 ### Clone the Repository  
 To clone this repository, use the following command:  
-```bash
 git clone https://github.com/Pratik-Kiran-Rout/pratik-css.git
 
